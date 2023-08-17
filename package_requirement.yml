@@ -1,0 +1,41 @@
+name: tribelingo
+
+channels:
+- anaconda
+- conda-forge
+
+dependencies:
+# Essential
+- conda
+- python==3.7.6
+- nb_conda_kernels
+- pip
+- ipython
+- tqdm
+- ipywidgets
+- pydotplus
+# general
+- numpy
+- pandas
+- nltk
+- beautifulsoup4
+- pytesseract
+- speechrecognition==3.8.1
+- pyaudio
+- streamlit
+
+- pip:
+  - pip
+  - jcopdl
+  - translate
+  - playsound==1.2.2
+  - pywhatkit
+  - gTTS
+  - pyttsx3
+  - torch
+  - torchtext
+  - beautifulsoup4
+  - translate
+  - flask
+  - opencv-python
+  
